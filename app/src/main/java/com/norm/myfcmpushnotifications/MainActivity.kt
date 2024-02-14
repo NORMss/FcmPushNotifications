@@ -38,7 +38,7 @@ class MainActivity : ComponentActivity() {
                             onSubmit = viewModel::onSubmitRemoteToken,
                         )
                     } else {
-                        Log.d("MyLog", "Open ChatScreen\nToken: ${state.remoteToken}")
+//                        Log.d("MyLog", "Open ChatScreen\nToken: ${state.remoteToken}")
                         ChatScreen(
                             messageText = viewModel.state.messageText,
                             onMessageChange = viewModel::onMessageChange,

@@ -63,7 +63,7 @@ fun ChatScreen(
             }
             Spacer(modifier = Modifier.width(16.dp))
             IconButton(
-                onClick = onMessageSend
+                onClick = onMessageBroadcast
             ) {
                 Icon(
                     imageVector = Icons.Default.Share,
